@@ -20,7 +20,7 @@ err_str2:
 .text
 .global memset
 .type memset, @function
-/* rdi: start ptr | rsi: size | rdx: val*/
+/* rdi: start ptr | rsi: size | rdx: val */
 memset:
 	push %rbp
 	mov %rsp, %rbp
