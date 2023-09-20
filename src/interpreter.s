@@ -80,13 +80,16 @@ interpret:
 	pop %rdi
 	jmp .L08
 
-.L05:	/* , */
+.L05:
+	/* , */
 	cmpb $44, (%rdi)
 	jne .L06
 	mov %rsp, %rcx
 	add -16(%rbp), %rcx
 	push %rdi
+	push %rcx
 	call readb
+	pop %rcx
 	mov %rax, (%rcx)
 	pop %rdi
 	jmp .L08
