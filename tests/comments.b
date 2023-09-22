@@ -1,0 +1,1 @@
+++>[this could be comment]<++++++++++++++++>[this also]<+++++++++++++++>[so oldschool lol]<.>++++++++++.
