@@ -1,5 +1,5 @@
 AS=as
-ASFLAGS=--64 -g
+ASFLAGS=--64
 
 LD=ld
 
